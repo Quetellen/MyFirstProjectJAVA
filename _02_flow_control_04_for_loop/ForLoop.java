@@ -13,12 +13,18 @@ public class ForLoop {
 		}
 		*/
 		
-		/*
+		/*traditional for loop*/
+		
+		int[] array = {1,12,3,7,8,9,4,5,2,11};
+		//             0  1 2 3 4 5 6 7 8 9
+
 		for(int i=0; i < 10; i++) {
-			System.out.println(i);
+			
+			if (array[i]==5) {
+				System.out.println(i);			
+				break;
+			}
 		}
-		*/
-		int[] array = {1,2,3,4,5};
 		//Enhanced for-loop, for-each
 		
 		for (int hello : array) {
