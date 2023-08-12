@@ -11,7 +11,7 @@ public class Variable {
 		
 		//Integer Data Types	
 		
-		int a = Integer.MIN_VALUE; // <-- Mostly used 4 bites
+		int a = Integer.MIN_VALUE; // <-- Mostly used 4 bytes
 		long b = Long.MAX_VALUE; //8 bytes
 		short c = Short.MAX_VALUE; //2 bytes
 		byte d = Byte.MIN_VALUE; // 1 byte
@@ -50,6 +50,19 @@ public class Variable {
 		System.out.println("The value of i is "+ i);
 		System.out.println("The value of j is "+ j);
 		System.out.println("The value of k is "+ k);
+		
+		String str1 = new String("Hello");
+		String str2 = new String("Hello");
+		
+		if ( str1 == str2 ) {
+			System.out.println("Equal");
+		}
+		else {
+			System.out.println("Different");		
+		}
+		
+	
+		System.out.println(str1);
 		
 	}
 
