@@ -13,13 +13,13 @@ interface Income{
 	double calculatePay(double salary, double taxes);
 	public abstract void DoSomething2();
 	
-	//As of JAVA 8 -> was created STATIC and DEFAULT methods in interfaces   
+	//As of JAVA 8 -> was created STATIC and DEFAULT methods in interfaces 
+	//This one was created to avoid to break somebody else code
 	
 	default void newFeature2() {
 		System.out.println("This is a new festure");
 	}
 	
-	//This one was created to avoid to break somebody else code
 	static void newFeature() {
 		System.out.println("This is a new festure");
 	}
