@@ -1,6 +1,7 @@
 package com.simplilearn.fsc._15_collections_02_sets;
 
 import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class LinkedSetExample2 {
 	
@@ -13,7 +14,7 @@ public class LinkedSetExample2 {
 
 	public static void main(String[] args) {
 		
-		LinkedHashSet<String> quetellen = new LinkedHashSet<>();
+		Set<String> quetellen = new LinkedHashSet<>();
 		
 		quetellen.add("John");
 		quetellen.add("John");

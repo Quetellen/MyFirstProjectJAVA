@@ -1,5 +1,6 @@
 package com.simplilearn.fsc._15_collections_02_sets;
 
+import java.util.Set;
 import java.util.TreeSet;
 
 public class TreeSetExample3 {
@@ -14,7 +15,7 @@ public class TreeSetExample3 {
 
 	public static void main(String[] args) {
 		
-		TreeSet<String> quetellen = new TreeSet<>();
+		Set<String> quetellen = new TreeSet<>();
 		
 		quetellen.add("John");
 		quetellen.add("John");

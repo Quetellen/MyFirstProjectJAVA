@@ -1,6 +1,7 @@
 package com.simplilearn.fsc._15_collections_02_sets;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class StringSetExample {
 	
@@ -12,7 +13,7 @@ public class StringSetExample {
 
 	public static void main(String[] args) {
 		
-		HashSet<String> quetellen = new HashSet<>();
+		Set<String> quetellen = new HashSet<>();
 		
 		quetellen.add("John");
 		quetellen.add("John");
