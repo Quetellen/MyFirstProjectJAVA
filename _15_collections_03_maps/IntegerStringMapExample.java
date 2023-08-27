@@ -5,9 +5,20 @@ import java.util.Map;
 
 public class IntegerStringMapExample {
 	
-	/*
-	 * It does NOT KEEP the insertion order!!!
-	 * The Insertions are unique. Does NOT take duplicate KEY
+	/*It is a collection of elements in a key-value format. 
+	 * The elements are indexed by key. 
+	 * 
+	 * It does not allow duplicate keys. But allow duplicate values
+	 * It does not keep insertion order. 
+	 * 
+	 * We use map to searching in memory. 
+	 * Time complexity – O(1) - Constant
+	 * 
+	 * Implements Hash Algorithm
+	 * 
+	 * LinkedHashMap - Keeps the insertion order
+	 * TreeMap - Sorts the map by keys.
+	 * 
 	 */
 
 	public static void main(String[] args) {
